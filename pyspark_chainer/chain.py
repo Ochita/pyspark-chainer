@@ -7,6 +7,7 @@ from pyspark.sql import DataFrame
 # TODO typings
 # TODO logging
 # TODO moar checks
+# TODO add lineage mechanisms
 class Chain(object):
     def __init__(self, /, df, module=None, transformations=None):
         def predicate(member):
